@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="w-screen h-screen bg-zinc-100">
+    <div class="w-screen h-auto pb-10 bg-zinc-100">
         @include('layouts._partials.nav')
         @yield('content')
     </div>
